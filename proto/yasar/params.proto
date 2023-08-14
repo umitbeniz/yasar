@@ -1,0 +1,12 @@
+syntax = "proto3";
+package umitbeniz.yasar.yasar;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/umitbeniz/yasar/x/yasar/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
